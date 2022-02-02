@@ -1,0 +1,4 @@
+[
+  { "path": "C:/tmp/nginx.log", "topic": "nginx" },
+  { "path": "C:/tmp/web.log", "topic": "web" }
+]
