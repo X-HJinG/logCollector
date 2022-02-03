@@ -53,12 +53,3 @@ func sendToES() {
 	}
 
 }
-
-// func SendToES(indexStr string, data interface{}) {
-// 	put, err := client.Index().Index(indexStr).BodyJson(data).Do(context.Background())
-// 	if err != nil {
-// 		fmt.Println("send to es failed , err:", err)
-// 		return
-// 	}
-// 	fmt.Printf("Indexed student %s to index %s, type %s\n", put.Id, put.Index, put.Type)
-// }
